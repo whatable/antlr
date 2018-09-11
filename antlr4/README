@@ -1,0 +1,7 @@
+【ExprBaseVisitor.java的@Override注解一直报错】
+maven项目jdk版本默认为1.5，改为1.8即可解决
+
+【准备】
+_AntlrGenerator.java中调用Tool.main。参数在代码中写死，参数设定了输出目录、package、g4文件位置等信息；
+g4文件放在
+运行_AntlrGenerator即可生成visitor/lexer/parser等
